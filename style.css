@@ -1,0 +1,54 @@
+
+
+/* #header1{
+    background-image: linear-gradient( #09203F , #537895);
+    border: solid #09203F 0.5px;
+}
+#header2{
+    background-image: linear-gradient( #09203F , #537895);
+    border: solid #09203F 0.5px;
+} */
+
+#backgroundContainer{
+    /* background: linear-gradient(#3a1c71 , #d76d77 , #ffaf7b); */
+    /* background: linear-gradient(#aa076b , #61045f); */
+    /* background: linear-gradient( #b05cb3,#4568dc ); */
+    /* background: linear-gradient(  #faaca8,#ddd6f3 ); */
+    
+    /* background: linear-gradient(   #bdc3c7,#2c3e50  ); */
+    /* background: linear-gradient(  #7b4397 , #dc2430 ); */
+    background: linear-gradient( #c33764, #1d2671 );
+    display: none;
+}
+
+ @media (min-height:200px){
+    #backgroundContainer{
+        display: block;
+        height: 630px;
+    }
+} 
+@media(max-height:600.1px){
+    #backgroundContainer{
+        display: block;
+        height: 700px;
+    }
+}
+@media (min-height:700.1px) {
+    #backgroundContainer{
+        display: block;
+        height: auto;
+    }
+}
+
+#header1,#header2{
+    border-bottom: 0.5px solid black ;
+}
+
+#my-card1,#my-card2{
+    border: 0.5px solid black;
+}
+
+
+
+
+
